@@ -1,0 +1,656 @@
+1.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <span style="font-size: 5em;">M</span>
+    <span style="font-size: 4em;">A</span>
+    <span style="font-size: 3em;">H</span>
+    <span style="font-size: 2em;">I</span>
+</body>
+</html>
+
+10.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Div Forms</title>
+    </head>
+    <body align="center">
+        <div>
+            <table align="center">
+                <tr>
+                    <th>Visitors Information</th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <br />
+                        <form>
+                            <label for="email">Email Address : </label>
+                            <input type="email" name="email" id="email" /><br />
+                            <label>User's Interest :</label><br />
+                            <label>Research<input type="checkbox" name="interest" value="research" /></label>
+                            <label>Purchase <input type="checkbox" name="interest" value="purchase" /></label><br />
+                            <label for="occupation"> Occupation : </label>
+                            <select name="occupation" value="select-one" id="occupation">
+                                <option>Select One</option> </select
+                            ><br />
+                            <label>Want us to send you junk mails?</label> <br />
+                            <label>Absolutely<input type="radio" name="send-mail" value="yes" /></label>
+                            <label>No Way Man<input type="radio" name="send-mail" value="no" /></label>
+                            <hr />
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Reset" />
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <h4>Register Here!</h4>
+            <form>
+                <label>Username <input type="text" name="uname" required autofocus /></label><br />
+                <label>Password <input type="password" name="pwd" required /></label><br />
+                <label>Confirm <input type="password" name="pwd2" required /></label><br />
+                <label>Name <input type="text" name="name" /></label><br />
+                <label>Gender</label><br />
+                <label>Male <input type="radio" name="gender" value="M" /></label>
+                <label>Female <input type="radio" name="gender" value="F" /></label>
+                <label>Other <input type="radio" name="gender" value="O" /></label><br />
+                <label>Address<br /><textarea name="address"></textarea></label><br />
+                <label
+                    >Profession
+                    <select name="profession">
+                        <option value="maker">Maker</option>
+                        <option value="learner">Learner</option>
+                        <option value="explorer">Explorer</option>
+                    </select>
+                </label>
+                <input type="submit" />
+            </form>
+        </div>
+    </body>
+</html>
+
+
+11.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+        <title>Styled Table</title>
+    </head>
+    <body>
+        <table border="solid 2px">
+        <tr>
+            <th>Decimal</th>
+            <th>English</th>
+            <th>Spanish</th>
+            <th>Korean</th>
+            <th>Binary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>One</td>
+            <td>Uno</td>
+            <td>Hanna</td>
+            <td>0001</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Two</td>
+            <td>Dos</td>
+            <td>Dool</td>
+            <td>0010</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Three</td>
+            <td>Tres</td>
+            <td>Set</td>
+            <td>0011</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Four</td>
+            <td>Quarto</td>
+            <td>Net</td>
+            <td>0100</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Five</td>
+            <td>Cinco</td>
+            <td>Daset</td>
+            <td>0101</td>
+        </tr>
+    </body>
+</html>
+
+12.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML5 Forms 1</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Visitors Information</th>
+            </tr>
+            <tr>
+                <td>
+                    <form align="center">
+                        <label for="email">Email Address : </label>
+                        <input type="email" name="email" id="email" placeholder="me@mail.com" /> <br />
+                        <label>User's Interest :</label><br />
+                        <label>Research<input type="checkbox" name="interest" value="research" /></label>
+                        <label>Purchase <input type="checkbox" name="interest" value="purchase" /></label> <br />
+                        <br />
+                        <label for="occupation"> Occupation : </label>
+                        <select name="occupation" value="select-one" id="occupation">
+                            <option>Select One</option> </select
+                        ><br />
+                        <label>Want us to send you junk mails?</label> <br />
+                        <label>Absolutely<input type="radio" name="send-mail" value="yes" /></label>
+                        <label>No Way Man<input type="radio" name="send-mail" value="no" /></label>
+                        <hr />
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+13.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML5 Forms 2</title>
+    </head>
+    <body align="center">
+        <h3>Register Here</h3>
+        <form>
+            <label>Username <input type="text" name="uname" placeholder="johndoe" required autofocus /></label><br />
+            <label>Password <input type="password" name="pwd" required placeholder="Shhh!" /></label><br />
+            <label>Confirm <input type="password" name="pwd2" required placeholder="It's a Secret" /></label><br />
+            <label>Name <input type="text" name="name" placeholder="John Doe" /></label><br />
+            <label>Gender</label><br />
+            <label>Male <input type="radio" name="gender" value="M" /></label>
+            <label>Female <input type="radio" name="gender" value="F" /></label>
+            <label>Other <input type="radio" name="gender" value="O" /></label><br />
+            <label>Address<br /><textarea name="address" placeholder="House A Street B"></textarea></label><br />
+            <label
+                >Profession<br />
+                <select name="profession" multiple>
+                    <option value="maker">Maker</option>
+                    <option value="learner">Learner</option>
+                    <option value="explorer">Explorer</option>
+                </select> </label
+            ><br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
+
+2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Example</title>
+</head>
+<body>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+    <ol>
+        <li>Water</li>
+        <li>Fire</li>
+    </ol>
+
+</body>
+</html>
+
+3.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Lists Example</title>
+</head>
+<body>
+
+    <!-- List 1 -->
+    <h2>List 1</h2>
+    <ol>
+        <li>One
+            <ol type="a">
+                <li>Uno</li>
+                <li>Hanna</li>
+            </ol>
+        </li>
+        <li>Two
+            <ol type="a">
+                <li>Dos</li>
+                <li>Dool</li>
+            </ol>
+        </li>
+        <li>Three
+            <ol type="a">
+                <li>Tres</li>
+                <li>Set</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!-- List 2 -->
+    <h2>List 2</h2>
+    <ul>
+        <li>Chevy
+            <ul>
+                <li>Cavalier</li>
+                <li>Malibu</li>
+            </ul>
+        </li>
+        <li>Ford
+            <ul>
+                <li>Escort</li>
+                <li>F100</li>
+            </ul>
+        </li>
+        <li>Mazda
+            <ul>
+                <li>626</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- List 3 -->
+    <h2>List 3</h2>
+    <ol type="A">
+        <li>Fruits
+            <ol type="1">
+                <li>Apples, Oranges, Pears, Banana</li>
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol type="i">
+                <li>Corn
+                    <ol type="a">
+                        <li>on the cob</li>
+                        <li>Cream</li>
+                    </ol>
+                </li>
+                <li>Carrots</li>
+                <li>Green Beans</li>
+            </ol>
+        </li>
+    </ol>
+
+</body>
+</html>
+
+4.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Border</title>
+</head>
+<body>
+    <img src="https://cdn.britannica.com/84/232784-050-1769B477/Siberian-Husky-dog.jpg" alt="Sample Image" style="border: 2px solid black; width: 200px; height: 200px;">
+
+</body>
+</html>
+
+5.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Example</title>
+</head>
+<body>
+
+    <!-- Top Link -->
+    <a href="#bottom" style="display:block; margin-top: 20px;">Go to Bottom</a>
+
+    <div style="height: 800px;"></div> <!-- Spacer to create scrolling effect -->
+
+    <!-- Bottom Link -->
+    <a id="bottom" href="#top" style="display:block; margin-bottom: 20px;">Go to Top</a>
+
+</body>
+</html>
+
+6.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language and Binary Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2; /* Highlighted headers */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Number Representation Table</h1>
+
+    <table>
+        <tr>
+            <th>Decimal</th>
+            <th>English</th>
+            <th>Spanish</th>
+            <th>Korean</th>
+            <th>Binary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>one</td>
+            <td>uno</td>
+            <td>hanna</td>
+            <td>0001</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>two</td>
+            <td>dos</td>
+            <td>dool</td>
+            <td>0010</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>three</td>
+            <td>tres</td>
+            <td>set</td>
+            <td>0011</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>four</td>
+            <td>cuatro</td>
+            <td>net</td>
+            <td>0100</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>five</td>
+            <td>cinco</td>
+            <td>daset</td>
+            <td>0101</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+7.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitors Information</title>
+    <style>
+        h1, table { text-align: center; margin: 0 auto; }
+        td { padding: 10px; }
+        hr { border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+
+    <h1>Visitors Information</h1>
+    <hr>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>User's Interest:</td>
+                <td>
+                    <input type="checkbox" id="research" name="interest" value="research">
+                    <label for="research">Web for Research</label><br>
+                    <input type="checkbox" id="purchase" name="interest" value="purchase">
+                    <label for="purchase">Web for Purchase</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="occupation">Occupation:</label></td>
+                <td>
+                    <select id="occupation" name="occupation" required>
+                        <option value="" disabled selected>(select one)</option>
+                        <option value="student">Student</option>
+                        <option value="professional">Professional</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Want us to send you junk emails?</td>
+                <td>
+                    <input type="radio" id="absolutely" name="junk_email" value="absolutely" required>
+                    <label for="absolutely">Absolutely</label><br>
+                    <input type="radio" id="no_way" name="junk_email" value="no_way">
+                    <label for="no_way">No way man</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+8.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        form { text-align: left; border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
+        td { padding: 8px; }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" required></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="3" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="profession">Profession:</label></td>
+                <td>
+                    <select id="profession" name="profession" required>
+                        <option value="" disabled selected>Select one</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+9.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Layout</title>
+    <style>
+        body { margin: 0; }
+        .container { display: flex; flex-direction: column; height: 100vh; }
+        .header { flex: 0 1 30%; background: #f4f4f4; }
+        .main { flex: 1; display: flex; }
+        .menu { flex: 0 1 30%; background: #e0e0e0; padding: 10px; }
+        .content { flex: 1; padding: 10px; }
+        iframe { border: none; width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header with image -->
+        <div class="header">
+            <iframe srcdoc='
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd4eP1lHO2DMwXAB2MQ1JqIUyHwt8Wd9O-Xw&s" alt="Header Image" style="width:100%; height:100%;">
+            '></iframe>
+        </div>
+        
+        <!-- Main content area -->
+        <div class="main">
+            <!-- Menu section -->
+            <div class="menu">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="font.html" target="contentFrame">Font</a></li>
+                    <li><a href="alignment.html" target="contentFrame">Alignment</a></li>
+                </ul>
+            </div>
+
+            <!-- Content section -->
+            <div class="content">
+                <iframe name="contentFrame" srcdoc='
+                    <h2>Welcome! Please select an option from the menu.</h2>
+                '></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Replace srcdoc content of iframes with actual content
+        const fontContent = `
+            <div style="font-family: 'Agency FB';">Agency FB</div>
+            <div style="font-family: 'Cambria';">Cambria</div>
+            <div style="font-family: 'Elephant';">Elephant</div>
+            <div style="font-family: 'Verdana';">Verdana</div>
+            <div style="font-family: 'Times New Roman';">Times New Roman</div>
+        `;
+        
+        const alignmentContent = `
+            <div style="text-align: left;">Left Aligned Text</div>
+            <div style="text-align: center;">Center Aligned Text</div>
+            <div style="text-align: right;">Right Aligned Text</div>
+            <div style="text-align: justify;">Justified Text</div>
+        `;
+
+        document.querySelectorAll('a[href="font.html"]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('iframe[name="contentFrame"]').srcdoc = fontContent;
+            });
+        });
+
+        document.querySelectorAll('a[href="alignment.html"]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('iframe[name="contentFrame"]').srcdoc = alignmentContent;
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
